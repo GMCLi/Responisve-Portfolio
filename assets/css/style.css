@@ -154,11 +154,20 @@ p {
         text-indent: 2em;
         margin: 0 auto 0 auto;
     }
+    body {
+        margin: auto;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 640px) {
     #headshot {
         float: none;
         margin: 0 auto 0 auto;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
     }
 }
