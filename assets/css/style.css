@@ -69,11 +69,11 @@ div {
 }
 
 body {
-    background-image: url("../images/BackgroundPattern/what-the-hex/what-the-hex.png");
+    background-image: url("../images/what-the-hex.png");
     background-repeat: repeat;
     width: 960px;
     margin: 0 auto 0 auto;
-
+    
 }
 
 p {
@@ -105,36 +105,12 @@ p {
     height: 50px;
 }
 
-#Hangman {
-    width: 200px;
-    height: 200px;
-}
-
-#RPG {
-    width: 200px;
-    height: 200px;
-}
-
-#TGame {
-    width: 200px;
-    height: 200px;
-}
-
-#RIW {
-    width: 200px;
-    height: 200px;
-}
-
-#RPS {
-    width: 200px;
-    height: 200px;
-}
-
 .Portpics {
-    width: 300px;
+    width: 200px;
     height: 200px;
     margin-top: 30px;
     margin-right: 10px;
+    display: inline;
 }
 
 .desc {
@@ -147,8 +123,42 @@ p {
     font-size: 30px;
 
 }
+
 .NavButtons li {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
+}
+
+.desc {
+    position: absolute;
+    top: 3px;
+    width: 200px;
+    height: 70px;
+}
+
+.imgwrap {
+    position: relative;
+}
+@media screen and (max-width: 980px) {
+    body {
+        width: 60%;
+        margin: 0 0 0 50px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        text-align: justify;
+        text-indent: 2em;
+        margin: 0 auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #headshot {
+        float: none;
+        margin: 0 auto 0 auto;
+    }
 }
